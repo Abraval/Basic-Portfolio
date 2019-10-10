@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #efeee7;
+    font: Georgia,"Times New Roman",Times,serif;
+    color: #333333;
+}
+header {
+    background-color: #b8b9b9;
+    text-align: center;
+    overflow: auto;
+    border-bottom: #333333 1px solid;
+
+}
+
+.name {
+    color: #eee;
+    background-color: rgb(105, 156, 156);
+    font-size: 28px;
+    padding: 5px;
+    margin-left: 150px;
+    margin-bottom: 0;
+    float: left;
+}
+
+h1 {
+    color: #eee;
+    font-size: 28px;
+    padding: 20px;
+    margin: 0;
+  
+
+}
+
+h2 {
+    font-size: 24px;
+
+}
+a:link {
+    color: #535353;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #1f1e1e;
+    text-decoration: none;
+  }
+  
+
+.topnav {
+    float:right;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+.about {
+    padding: 5px 10px 5px 5px;
+    border-right: 1px solid gray
+}
+.portfolio{
+    padding: 5px 10px 5px 5px;
+    border-right: 1px solid gray
+}
+.contact{
+    padding: 5px 10px 5px 5px;
+}
+.container {
+    width: 1024px;
+    margin: 0 auto;
+
+
+}
+
+#main-bio {
+    float: left;
+    width: 70%;
+}
+
+#contact-info {
+    float: left;
+    width: 30%;
+    line-height: 1.5;
+}
+
+#bio-image {
+    float: left;
+    width: 200px;
+    height: 280px;
+    margin-right: 20px;
+}
