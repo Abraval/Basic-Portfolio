@@ -70,14 +70,13 @@ a:link {
     padding: 5px 10px 5px 5px;
 }
 
-.main-bio, .gallery {
+.main-bio, .gallery, .contact_info {
     margin: 50px auto 0 auto;
-    width: 50%;
     border: 1px solid  gray;
     padding: 0 40px 40px 40px;
     overflow: auto;
-    width: 75%;
     background-color: whitesmoke;
+    width: 960px;
     
 }
 
