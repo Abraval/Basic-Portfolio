@@ -2,55 +2,61 @@ body {
     margin: 0;
     padding: 0;
     background-color: #efeee7;
-    font: Georgia,"Times New Roman",Times,serif;
-    color: #333333;
+    background-image: url(../images/so-white.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: dimgrey;
+    font-family: 'EB Garamond', serif;
 }
 header {
-    background-color: #b8b9b9;
+    background-color:darkgray;
     text-align: center;
     overflow: auto;
-    border-bottom: #333333 1px solid;
+    border-bottom: dimgrey 1px solid;
 
 }
 
 .name {
     color: #eee;
-    background-color: rgb(105, 156, 156);
+    background-color: rgb(133, 131, 131);
     font-size: 28px;
+    font-family: 'EB Garamond', serif;
     padding: 5px;
-    margin-left: 150px;
+    margin-left: 120px;
     margin-bottom: 0;
     float: left;
 }
 
-h1 {
+.name h1 {
     color: #eee;
     font-size: 28px;
     padding: 20px;
     margin: 0;
-  
 
 }
 
-h2 {
+h1 {
+    color: dimgrey;
     font-size: 24px;
-
+   
 }
 a:link {
-    color: #535353;
+    color: dimgrey;
     text-decoration: none;
   }
   
   a:visited {
-    color: #1f1e1e;
+    color: whitesmoke;
     text-decoration: none;
   }
   
 
 .topnav {
+    color: #845007;
     float:right;
     margin-right: 150px;
     margin-top: 30px;
+    font-size: 20px;
 }
 .about {
     padding: 5px 10px 5px 5px;
@@ -58,32 +64,37 @@ a:link {
 }
 .portfolio{
     padding: 5px 10px 5px 5px;
-    border-right: 1px solid gray
+    border-right: 1px solid gray;
 }
 .contact{
     padding: 5px 10px 5px 5px;
 }
-.container {
-    width: 1024px;
-    margin: 0 auto;
 
-
-}
-
-#main-bio {
-    float: left;
-    width: 70%;
-}
-
-#contact-info {
-    float: left;
-    width: 30%;
-    line-height: 1.5;
+.main-bio {
+    margin: 50px auto 0 auto;
+    width: 50%;
+    border: 1px solid  gray;
+    padding: 0 40px 40px 40px;
+    overflow: auto;
+    width: 75%;
+    background-color: whitesmoke;
+    
 }
 
 #bio-image {
     float: left;
     width: 200px;
     height: 280px;
+    margin: auto;
     margin-right: 20px;
+}
+
+footer {
+    background-color: rgb(133, 131, 131);
+    color: whitesmoke;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
