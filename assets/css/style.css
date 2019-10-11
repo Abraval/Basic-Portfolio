@@ -40,6 +40,12 @@ h1 {
     font-size: 24px;
    
 }
+h3 {
+  color: #eee;
+  background-color: dimgrey;
+  padding: 5px;
+  text-align: center;
+}
 a:link {
     color: dimgrey;
     text-decoration: none;
@@ -49,7 +55,6 @@ a:link {
     color: whitesmoke;
     text-decoration: none;
   }
-  
 
 .topnav {
     color: #845007;
@@ -109,11 +114,14 @@ a:link {
     display: table;
     clear: both;
   }
-  
-  .content {
-    background-color: white;
-    padding: 10px;
+  .overlay {
+    position: absolute;
+   bottom: 10px;
+    width: 100%;
   }
+.image-block {
+  position: relative;
+}
 
 footer {
     background-color: rgb(133, 131, 131);
