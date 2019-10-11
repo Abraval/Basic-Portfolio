@@ -70,7 +70,7 @@ a:link {
     padding: 5px 10px 5px 5px;
 }
 
-.main-bio {
+.main-bio, .gallery {
     margin: 50px auto 0 auto;
     width: 50%;
     border: 1px solid  gray;
@@ -88,6 +88,33 @@ a:link {
     margin: auto;
     margin-right: 20px;
 }
+/* Used W3Schools tutorial for making a Portfolio Gallery) */
+* {
+    box-sizing: border-box;
+  }
+  .row {
+    margin: 8px -16px;
+  }
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+ 
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
 
 footer {
     background-color: rgb(133, 131, 131);
